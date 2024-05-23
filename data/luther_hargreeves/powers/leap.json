@@ -29,7 +29,7 @@
              "type":"origins:add_velocity",
              "x":0.00,
              "y":0.00,
-             "z":0.50,
+             "z":4.40,
              "space":"local",
              "client":true,
              "server":true,
