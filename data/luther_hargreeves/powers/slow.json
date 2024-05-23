@@ -1,0 +1,11 @@
+{
+    "name": "Slow",
+    "description": "You may be big, but you are slower because if your large body.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": -0.25,
+        "name": "Movement Slowed"
+    }
+}

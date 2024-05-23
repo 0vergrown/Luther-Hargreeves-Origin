@@ -1,0 +1,12 @@
+{
+    "name":"Strength",
+    "description":"You have natural strength.",
+    "type":"origins:attribute",
+    "modifier":{
+       "attribute":"minecraft:generic.attack_damage",
+       "operation":"multiply_base",
+       "value":0.35,
+       "name":"Max Damage Increase"
+    },
+    "update_health":false
+}

@@ -1,0 +1,11 @@
+{
+    "name":"Protection",
+    "description":"Your body is part gorilla which gives extra protection.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 6,
+        "name": "Three (3) Extra Armor Points Added Without Wearing Armor."
+    }
+}

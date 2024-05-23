@@ -1,0 +1,82 @@
+{
+    "name":"Heavy Punch",
+    "description":"You perform a heavy punch dealing a lot of damage. [On Hit]",
+    "type":"origins:target_action_on_hit",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:play_sound",
+             "sound":"minecraft:entity.generic.explode",
+             "volume":0.70,
+             "pitch":1.00
+          },
+          {
+            "type": "origins:add_velocity",
+            "x": 0.00,
+            "y": 0.30,
+            "z": 0.80,
+            "space": "velocity_horizontal_normalized",
+            "client": true,
+            "server": true,
+            "set": false
+          },
+          {
+             "type":"origins:spawn_particles",
+             "particle":"minecraft:explosion",
+             "count":5,
+             "speed":0.50,
+             "force":false,
+             "spread":{
+                "x":0.50,
+                "y":0.50,
+                "z":0.50
+             },
+             "offset_y":0.5
+          },
+          {
+             "type":"origins:spawn_particles",
+             "particle":{
+                "type":"minecraft:cloud"
+             },
+             "count":10,
+             "speed":0.1,
+             "force":false,
+             "spread":{
+                "x":1.5,
+                "y":1.5,
+                "z":1.5
+             }
+          },
+          {
+             "type":"origins:area_of_effect",
+             "radius":5.00,
+             "shape":"cube",
+             "bientity_action":{
+                "type":"origins:add_velocity",
+                "x":0.00,
+                "y":0.80,
+                "z":0.50,
+                "reference":"position",
+                "client":true,
+                "server":true,
+                "set":false
+             },
+             "bientity_condition": {
+                 "type": "origins:target_condition",
+                 "condition": {
+                     "type": "origins:origin",
+                     "origin": "luther_hargreeves:luther_hargreeves",
+                     "layer": "origins:origin"
+                 },
+                 "inverted": true
+             },
+             "include_actor":true
+          }
+       ]
+    },
+    "cooldown":1,
+    "hud_render":{
+       "should_render":false
+    }
+}

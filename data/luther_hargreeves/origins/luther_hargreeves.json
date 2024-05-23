@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"luther_hargreeves:grab",
+		"luther_hargreeves:heavy_punch",
+		"luther_hargreeves:leap",
+		"luther_hargreeves:large_body",
+		"luther_hargreeves:protection",
+		"luther_hargreeves:strength",
+		"luther_hargreeves:slow",
+		"luther_hargreeves:slow_arms",
+		"luther_hargreeves:hungry"
+	],
+	"icon": {
+		"item": "minecraft:player_head",
+		"tag":"{SkullOwner:{Id:[I;117130965,2002603165,-1360253318,-1806502008],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTliMDY0NmE0YjU0NTI1OTAzMjcyY2JhZTdkNmI2ZDk1MTA2MDMzYzc5ODEyODY5ZGNkZGVkNDlhODIxNzYwOSJ9fX0=\"}]}}}"
+	},
+	"order": 10,
+	"impact": 3,
+	"name": "Luther Hargreeves",
+	"description": "You are a very large man with a strong body. You traveled to the moon for 4 years which made you stronger and larger."
+}
