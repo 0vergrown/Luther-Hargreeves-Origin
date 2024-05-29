@@ -414,7 +414,7 @@
                   "actions":[
                      {
                         "type":"origins:damage",
-                        "amount":6,
+                        "amount":4,
                         "damage_type":"minecraft:fall"
                      },
                      {
@@ -432,7 +432,7 @@
                         "action":{
                            "type":"origins:add_velocity",
                            "x":0.00,
-                           "y":2.00,
+                           "y":1.00,
                            "z":0.00,
                            "space":"world",
                            "client":true,
